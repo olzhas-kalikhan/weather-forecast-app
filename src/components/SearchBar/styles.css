@@ -1,0 +1,126 @@
+.search-bar-container {
+    margin: 0 auto;
+    position: relative;
+    transition: margin-top 0.5s;
+
+}
+
+.search-bar-container * {
+    
+    font-size: 2.5rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    vertical-align: middle;
+}
+
+.search-bar {
+    width: 100%;
+}
+
+.search-bar-input {
+    width: 80%;
+    padding: 0;
+    background: transparent;
+}
+
+.search-bar-submit-btn {
+    background-color: transparent;
+    width: 20%;
+    padding: 0;
+}
+
+.search-suggestions {
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    width: 100%;
+    max-height: 400%;
+    position: absolute;
+    top: 100%;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+}
+.search-suggestions::-webkit-scrollbar{
+    display: none;
+}
+
+.search-suggestions li {
+    height: auto;
+}
+
+.search-suggestions li:hover {
+    background-color: #F3FFE2;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+/* Color Theme Swatches in Hex */
+
+.Aspirin-C-1-hex {
+    color: #225378;
+}
+
+.Aspirin-C-2-hex {
+    color: #1695A3;
+}
+
+.Aspirin-C-3-hex {
+    color: #ACF0F2;
+}
+
+.Aspirin-C-4-hex {
+    color: #F3FFE2;
+}
+
+.Aspirin-C-5-hex {
+    color: #EB7F00;
+}
+
+/* Color Theme Swatches in RGBA */
+
+.Aspirin-C-1-rgba {
+    color: rgba(33, 82, 119, 1);
+}
+
+.Aspirin-C-2-rgba {
+    color: rgba(21, 148, 163, 1);
+}
+
+.Aspirin-C-3-rgba {
+    color: rgba(171, 239, 242, 1);
+}
+
+.Aspirin-C-4-rgba {
+    color: rgba(242, 255, 226, 1);
+}
+
+.Aspirin-C-5-rgba {
+    color: rgba(234, 126, 0, 1);
+}
+
+/* Color Theme Swatches in HSLA */
+
+.Aspirin-C-1-hsla {
+    color: hsla(205, 56, 30, 1);
+}
+
+.Aspirin-C-2-hsla {
+    color: hsla(186, 76, 36, 1);
+}
+
+.Aspirin-C-3-hsla {
+    color: hsla(182, 73, 81, 1);
+}
+
+.Aspirin-C-4-hsla {
+    color: hsla(84, 100, 94, 1);
+}
+
+.Aspirin-C-5-hsla {
+    color: hsla(32, 100, 46, 1);
+}

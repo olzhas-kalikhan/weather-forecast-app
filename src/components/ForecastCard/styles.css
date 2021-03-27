@@ -1,0 +1,10 @@
+.forecast-card-container{
+    background-color: #ebf5dc;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.weather-info{
+    display: flex;
+
+}
