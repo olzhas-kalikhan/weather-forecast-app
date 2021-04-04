@@ -7,7 +7,7 @@ import ForecastCard from '../ForecastCard';
 
 const key = process.env.REACT_APP_WEATHER_API;
 
-const getCurrentWeatherURL = (locationID) => `http://api.openweathermap.org/data/2.5/weather?id=${locationID}&units=metric&appid=${key}`;
+const getCurrentWeatherURL = (locationID) => `https://api.openweathermap.org/data/2.5/weather?id=${locationID}&units=metric&appid=${key}`;
 
 const getUrl = ({ coord }) => `https://api.openweathermap.org/data/2.5/onecall?lat=${coord.lat}&lon=${coord.lon}&exclude=minutely,hourly&units=metric&appid=${key}`;
 
