@@ -3,7 +3,7 @@
 Application designed to display weather forecast of searhced location.
 
 ## Demo: 
-https://app.netlify.com/sites/expcon-assignment/overview
+https://weather-forecast-olzh.netlify.app/
 
 ## Getting Started with Create React App
 
