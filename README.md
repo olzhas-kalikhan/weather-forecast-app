@@ -1,7 +1,7 @@
 # Weather Forecast App
 
-Application designed to display weather forecast of searhced location
-Demo: https://app.netlify.com/sites/expcon-assignment/overview
+Application designed to display weather forecast of searhced location.
+##Demo: https://app.netlify.com/sites/expcon-assignment/overview
 
 ## Getting Started with Create React App
 
